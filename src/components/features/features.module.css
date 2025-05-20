@@ -1,0 +1,98 @@
+.container {
+    background-color: var(--background);
+}
+
+.title {
+    color: var(--corp2);
+    text-decoration: underline;
+    font-family: 'Russo One', 'Russo One Fallback';
+}
+
+.image {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border: .2rem solid var(--corp2);
+    border-radius: .5rem;
+    box-shadow: 0 .6rem 1rem 0 rgba(0, 0, 0, 0.2), 0 .5rem 1.2rem 0 rgba(0, 0, 0, 0.19);
+    animation-play-state: paused;
+}
+
+.slideLeft {
+    animation-duration: 2s;
+    animation-name: slide-in-left;
+}
+
+@keyframes slide-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(150%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.slideRight {
+    animation-duration: 2s;
+    animation-name: slide-in-right;
+}
+
+@keyframes slide-in-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-150%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.animationStart {
+    animation-play-state: running !important;
+}
+
+.imageText {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+    background-color: var(--corp2);
+    color: var(--corp3);
+    border-radius: .5rem;
+    box-shadow: 0 .6rem 1rem 0 rgba(0, 0, 0, 0.2), 0 .5rem 1.2rem 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 768px) {
+    .imageText {
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    @keyframes slide-in-left {
+        0% {
+            opacity: 0;
+            transform: translateX(120%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+
+    @keyframes slide-in-right {
+        0% {
+            opacity: 0;
+            transform: translateX(-120%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+}

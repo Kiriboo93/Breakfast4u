@@ -1,0 +1,131 @@
+.container {
+    background-color: var(--background);
+}
+
+.title {
+    margin-top: 8rem;
+    color: var(--corp2);
+    text-decoration: underline;
+    font-family: 'Russo One', 'Russo One Fallback';
+}
+
+#wrapper {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    position: relative;
+    overflow: hidden;
+    width: 43rem;
+    height: 53rem;
+    box-shadow: 0 0 2rem .5rem rgba(0, 0, 0, .3);
+    transform: rotate(2deg);
+    border: .6rem solid #fff;
+}
+
+.imageContainer {
+    position: absolute;
+    margin-left: -6rem;
+    margin-top: -4rem;
+    z-index: 1;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+.imageContainer {
+    z-index: 4;
+    animation-name: focus;
+}
+
+.animationStart {
+    animation-play-state: running;
+}
+
+.imageText {
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    z-index: 2;
+    padding: 1rem;
+    background-color: var(--corp2);
+    color: var(--corp3);
+    border-radius: .5rem;
+    box-shadow: 0 .6rem 1rem 0 rgba(0, 0, 0, 0.2), 0 .5rem 1.2rem 0 rgba(0, 0, 0, 0.19);
+}
+
+@keyframes focus {
+    0% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1.2) translateY(8.75rem);
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #wrapper {
+        width: 35rem;
+        height: 40rem;
+    }
+
+    .imageContainer {
+        position: absolute;
+        margin-left: -6rem;
+        margin-top: -8rem;
+        animation-duration: 8s;
+    }
+
+    @keyframes focus {
+        0% {
+            transform: scale(0.8);
+        }
+
+        100% {
+            transform: scale(0.9) translateX(-4rem) translateY(1.2rem);
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 35rem;
+        height: 40rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        margin-top: 4rem;
+    }
+
+    #wrapper {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25rem;
+        height: 33rem;
+    }
+
+    .imageContainer {
+        position: absolute;
+        margin-left: -14rem;
+        margin-top: -18rem;
+        animation-duration: 8s;
+    }
+
+    .imageText {
+        margin-bottom: 4rem;
+    }
+
+    @keyframes focus {
+        0% {
+            transform: scale(0.6);
+        }
+
+        100% {
+            transform: scale(0.7) translateX(-4rem) translateY(7rem);
+        }
+    }
+}

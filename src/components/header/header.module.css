@@ -1,0 +1,133 @@
+.navbar {
+    background: linear-gradient(var(--foreground) 12%, var(--foreground) 10%, transparent);
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbarBrand {
+    margin-left: -10rem;
+}
+
+.logo {
+    width: 7rem;
+    height: 7rem;
+}
+
+.logoName {
+    font-size: 2.5rem;
+    color: var(--corp3);
+}
+
+.halfName {
+    color: var(--corp);
+}
+
+.navlink {
+    color: var(--corp3);
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.navlink:hover {
+    color: var(--corp);
+}
+
+.navHamburguer {
+    background-color: var(--corp);
+}
+
+.navCollapse {
+    margin-right: -10rem;
+}
+
+.underlineAnimation {
+    display: inline-block;
+    position: relative;
+}
+
+.underlineAnimation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--corp);
+    transition: transform .25s ease-out;
+}
+
+.underlineAnimation:hover::after {
+    transform: scaleX(1);
+}
+
+.languajeSelect {
+    max-width: 7rem;
+    margin-left: 20rem;
+}
+
+@media screen and (max-width: 1720px) {
+    .navbarBrand {
+        margin-left: 0rem;
+    }
+
+    .navCollapse {
+        margin-right: 0;
+    }
+
+    .languajeSelect {
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .logoName {
+        font-size: 2rem;
+    }
+
+    .navlink {
+        font-size: 1rem;
+    }
+
+    .languajeSelect {
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .logoName {
+        font-size: 1.8rem;
+        padding: 0;
+    }
+
+    .navlink {
+        font-size: .9rem;
+    }
+
+    .languajeSelect {
+        margin-left: 7rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .navlink {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+
+    .languajeSelect {
+        margin-left: 0;
+    }
+}

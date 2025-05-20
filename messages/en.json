@@ -1,0 +1,31 @@
+{
+    "Header": {
+        "products": "Products",
+        "aboutus": "About us",
+        "opinions": "Opinions",
+        "es": "Spanish",
+        "en": "English"
+    },
+    "Page": {
+        "pageTitle": "Let us sweeten your morning!",
+        "subscribe1": "Subscribe to our service and we will deliver ",
+        "subscribe2": "your prefered breakfast every morning",
+        "emailph": "name@example.com",
+        "btnText": "Order your breakfast now!"
+    },
+    "Features": {
+        "featuresTitle": "Sweetening your eyesight",
+        "feature1": "Different types and roasts of coffee. Arabica, Robusta, Excels or Liberica, whatever your favorite coffee bean is, we bring it to you to start your day with energy.",
+        "feature2": "Our freshly baked pastries will sweeten your morning. Don't forget to follow a balanced diet!",
+        "feature3": "Fresh natural juices of different fruits with no added sweeteners."
+    },
+    "About": {
+        "titleAbout": "At your service since 2005",
+        "desc1": "Established in 2005, Breakfast4u has become a beloved staple in the community.",
+        "desc2": "We are known for our delicious and hearty morning meals, and we have built a reputation for quality, freshness, and friendly service.",
+        "desc3": "Over the years, we have grown while maintaining our cozy, welcoming atmosphere, making us the perfect choice to start the day for locals and visitors alike."
+    },
+    "Opinions": {
+        "titleOpinions": "What our customers have to say"
+    }
+}

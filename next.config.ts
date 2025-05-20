@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from 'next-intl/plugin';
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
+const nextConfig: NextConfig = {};
 
-export default nextConfig;
+/* Plugin para establecer un alias para pedir la config de i18n. */
+const withNextIntl = createNextIntlPlugin();
+
+export default withNextIntl(nextConfig);

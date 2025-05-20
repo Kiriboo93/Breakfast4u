@@ -1,0 +1,31 @@
+{
+    "Header": {
+        "products": "Productos",
+        "aboutus": "Sobre nosotros",
+        "opinions": "Opiniones",
+        "es": "Español",
+        "en": "Inglés"
+    },
+    "Page": {
+        "pageTitle": "¡Déjanos endulzar tu mañana!",
+        "subscribe1": "Suscríbete a nuestro servicio y te llevaremos ",
+        "subscribe2": "tu desayuno favorito todas las mañanas",
+        "emailph": "nombre@ejemplo.com",
+        "btnText": "¡Solicita tu desayuno ahora!"
+    },
+    "Features": {
+        "featuresTitle": "Endulzando tu vista",
+        "feature1": "Diferentes tipos y tuestes de café. Arabica, Robusta, Excels o Liberica, independientemente de cual es tu tipo de café favorito, lo llevamos a tu casa para empezar el día con energía.",
+        "feature2": "Nuestra bollería recién horneada endulzará tu mañana. ¡No te olvides de seguir una dieta balanceada!",
+        "feature3": "Diferentes zumos naturales sin azúcares añadidos."
+    },
+    "About": {
+        "titleAbout": "A tu servicio desde 2005",
+        "desc1": "Fundado en 2005, Breakfast4u se ha convertido en un lugar muy querido por la comunidad.",
+        "desc2": "Somos conocidos por nuestros deliciosas y abundantes desayunos, y hemos forjado una reputación de calidad, frescura y un servicio muy atento y amable.",
+        "desc3": "A lo largo de los años, hemos crecido manteniendo nuestro ambiente acogedor, lo que nos convierte en la opción perfecta para empezar el día, tanto para los lugareños como para los visitantes."
+    },
+    "Opinions": {
+        "titleOpinions": "Lo que opinan nuestros clientes"
+    }
+}
