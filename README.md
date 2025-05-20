@@ -17,8 +17,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Technologies used
 
 · React with Next.js (project created with create-next-app).
+
 · JavaScript, HTML and CSS.
+
 · TypeScript.
+
 · Next-intl for internationalization.
+
 · Bootstrap as a framework for custom elements.
+
 · React Intersection observer for CSS animations.
