@@ -1,9 +1,9 @@
 .container {
-    background-color: var(--background);
+    background-color: $background;
 }
 
 .title {
-    color: var(--corp2);
+    color: $corp2;
     text-decoration: underline;
     font-family: 'Russo One', 'Russo One Fallback';
     margin-top: 10rem;

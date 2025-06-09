@@ -1,7 +1,7 @@
 "use client";
 
 import { Col, Container, Row } from "react-bootstrap";
-import styles from "./about.module.css";
+import styles from "./about.module.scss";
 import { useInView } from "react-intersection-observer";
 import { useTranslations } from "next-intl";
 
@@ -13,7 +13,9 @@ const About = () => {
 
     return (
         <Container fluid="md">
-            <Row className="justify-content-center mb-5"><h1 id="about" className={styles.title}>{t("titleAbout")}</h1></Row>
+            <Row className="justify-content-center mb-5">
+                <h1 id="about" className={styles.title}>{t("titleAbout")}</h1>
+            </Row>
             <Row>
                 <Col lg={6} xs={12}>
                     <div id={styles.wrapper}>

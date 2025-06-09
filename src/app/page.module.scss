@@ -13,35 +13,43 @@
 
 .mainTitle {
   width: fit-content;
-  background-color: var(--corp);
-  color: var(--corp3);
+  background-color: $corp;
+  color: $corp3;
   font-weight: 600;
   border-radius: .5rem;
 }
 
 .customBtn {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: var(--corp);
-  --bs-btn-border-color: var(--corp);
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: var(--hover);
-  --bs-btn-hover-border-color: var(--hover);
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: var(--corp);
-  --bs-btn-active-border-color: var(--corp);
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: var(--corp);
-  --bs-btn-disabled-border-color: var(--corp);
+  color: $white;
+  background: $corp;
+  border: $corp;
   font-weight: 600;
   width: fit-content;
   padding: .5rem;
-}
 
-.customBtn:hover {
-  transform: scale(1.1);
-  transition: all .4s;
+  &:focus {
+    box-shadow: rgb(49, 132, 253);
+  }
+
+  &:active {
+    color: $white;
+    background: $corp;
+    border: $corp;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  }
+
+  &:disabled {
+    color: $white;
+    background: $corp;
+    border: $corp;
+  }
+
+  &:hover {
+    background: $hover;
+    border: $hover;
+    transform: scale(1.1);
+    transition: all .4s;
+  }
 }
 
 .subpage {
@@ -59,8 +67,8 @@
   width: 40rem;
   padding: 4rem 2rem;
   top: -10rem;
-  background-color: var(--corp2);
-  color: var(--corp3);
+  background-color: $corp2;
+  color: $corp3;
   font-weight: 600;
   border-radius: .5rem;
   margin-bottom: 2rem;

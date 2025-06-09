@@ -1,5 +1,5 @@
 .navbar {
-    background: linear-gradient(var(--foreground) 12%, var(--foreground) 10%, transparent);
+    background: linear-gradient($foreground 12%, $foreground 10%, transparent);
     position: absolute;
     top: 0;
     width: 100%;
@@ -16,26 +16,26 @@
 
 .logoName {
     font-size: 2.5rem;
-    color: var(--corp3);
+    color: $corp3;
 }
 
 .halfName {
-    color: var(--corp);
+    color: $corp;
 }
 
 .navlink {
-    color: var(--corp3);
+    color: $corp3;
     font-weight: 500;
     font-size: 1.2rem;
     text-align: center;
-}
 
-.navlink:hover {
-    color: var(--corp);
+    &:hover {
+        color: $corp;
+    }
 }
 
 .navHamburguer {
-    background-color: var(--corp);
+    background-color: $corp;
 }
 
 .navCollapse {
@@ -45,22 +45,22 @@
 .underlineAnimation {
     display: inline-block;
     position: relative;
-}
 
-.underlineAnimation::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: var(--corp);
-    transition: transform .25s ease-out;
-}
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $corp;
+        transition: transform .25s ease-out;
+    }
 
-.underlineAnimation:hover::after {
-    transform: scaleX(1);
+    &:hover::after {
+        transform: scaleX(1);
+    }
 }
 
 .languajeSelect {

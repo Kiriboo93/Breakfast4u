@@ -1,6 +1,6 @@
 import { Card, CardBody, Container } from "react-bootstrap";
 import Image from "next/image";
-import styles from "./cardElem.module.css";
+import styles from "./cardElem.module.scss";
 import { Opinion } from "@/types/types";
 
 const CardElem = ({ elem }: { elem: Opinion }) => {

@@ -1,9 +1,9 @@
 .container {
-    background-color: var(--background);
+    background-color: $background;
 }
 
 .title {
-    color: var(--corp2);
+    color: $corp2;
     text-decoration: underline;
     font-family: 'Russo One', 'Russo One Fallback';
 }
@@ -12,7 +12,7 @@
     width: 20rem;
     height: 20rem;
     object-fit: cover;
-    border: .2rem solid var(--corp2);
+    border: .2rem solid $corp2;
     border-radius: .5rem;
     box-shadow: 0 .6rem 1rem 0 rgba(0, 0, 0, 0.2), 0 .5rem 1.2rem 0 rgba(0, 0, 0, 0.19);
     animation-play-state: paused;
@@ -60,8 +60,8 @@
     font-size: 1.2rem;
     font-weight: 500;
     padding: 1rem;
-    background-color: var(--corp2);
-    color: var(--corp3);
+    background-color: $corp2;
+    color: $corp3;
     border-radius: .5rem;
     box-shadow: 0 .6rem 1rem 0 rgba(0, 0, 0, 0.2), 0 .5rem 1.2rem 0 rgba(0, 0, 0, 0.19);
 }

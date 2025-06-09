@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "./header.module.css";
+import styles from "./header.module.scss";
 import { Container, FormSelect, Image, Nav, Navbar, NavbarBrand, NavbarCollapse, NavbarToggle, NavLink } from "react-bootstrap";
 import { Russo_One } from "next/font/google";
 import { useLocale, useTranslations } from "next-intl";

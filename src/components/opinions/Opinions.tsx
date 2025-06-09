@@ -1,7 +1,7 @@
 "use client";
 
 import { Container, Row } from "react-bootstrap";
-import styles from "./opinions.module.css";
+import styles from "./opinions.module.scss";
 import { useFetchOpinions } from "../../hooks/hooks";
 import CardElem from "../card/CardElem";
 import { useTranslations } from "next-intl";

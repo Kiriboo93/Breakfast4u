@@ -1,10 +1,10 @@
 .container {
-    background-color: var(--background);
+    background-color: $background;
 }
 
 .title {
     margin-top: 8rem;
-    color: var(--corp2);
+    color: $corp2;
     text-decoration: underline;
     font-family: 'Russo One', 'Russo One Fallback';
 }
@@ -18,7 +18,7 @@
     height: 53rem;
     box-shadow: 0 0 2rem .5rem rgba(0, 0, 0, .3);
     transform: rotate(2deg);
-    border: .6rem solid #fff;
+    border: .6rem solid $white;
 }
 
 .imageContainer {
@@ -46,8 +46,8 @@
     position: relative;
     z-index: 2;
     padding: 1rem;
-    background-color: var(--corp2);
-    color: var(--corp3);
+    background-color: $corp2;
+    color: $corp3;
     border-radius: .5rem;
     box-shadow: 0 .6rem 1rem 0 rgba(0, 0, 0, 0.2), 0 .5rem 1.2rem 0 rgba(0, 0, 0, 0.19);
 }

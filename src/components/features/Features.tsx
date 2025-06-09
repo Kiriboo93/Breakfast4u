@@ -1,7 +1,7 @@
 "use client";
 
 import { Col, Container, Image, Row } from "react-bootstrap"
-import styles from "./features.module.css"
+import styles from "./features.module.scss"
 import { useInView } from "react-intersection-observer";
 import { useTranslations } from "next-intl";
 

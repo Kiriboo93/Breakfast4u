@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from "./page.module.scss";
 import { Button, Container, Row, FormControl } from "react-bootstrap";
 import Features from "@/components/features/Features";
 import About from "@/components/about/About";
