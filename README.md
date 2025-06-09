@@ -18,7 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 · React with Next.js (project created with create-next-app).
 
-· JavaScript, HTML and CSS.
+· JavaScript, HTML, CSS & SCSS.
 
 · TypeScript.
 
